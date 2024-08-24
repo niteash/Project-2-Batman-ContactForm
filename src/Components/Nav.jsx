@@ -6,7 +6,7 @@ const Nav = () => {
    <Container>
      <section className='flex justify-between p-5 items-center'>
         <div className="">
-            <img src="./images/Batman-Logo.png" className='w-[100px]' alt="" />
+            <img src="/images/Batman-Logo.png" className='w-[100px]' alt="" />
         </div>
         <div className=" uppercase font-bold">
             <ul className='flex gap-5 '>
