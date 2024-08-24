@@ -105,7 +105,7 @@ const Tags = () => {
         <div className="flex justify-center items-center lg:col-span-1">
           <div className="w-full">
             <img
-              src="/public/Images/Batman.png"
+              src="./images/Batman.png"
               alt="Batman"
               className="w-full h-auto object-cover"
             />
