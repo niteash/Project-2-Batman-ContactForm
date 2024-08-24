@@ -50,7 +50,7 @@ const Tags = () => {
           </div>
 
           <div className="mt-6 lg:mt-10">
-            <div className="flex items-center border border-2 border-black py-3 px-4 gap-2">
+            <div className="flex items-center  border-2 border-black py-3 px-4 gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -75,14 +75,14 @@ const Tags = () => {
           <div className="mt-6 lg:mt-10">
             <input
               type="text"
-              className="border border-black border-2 px-4 py-2 w-full lg:w-full"
+              className=" border-black border-2 px-4 py-2 w-full lg:w-full"
               placeholder="Your Name"
               required
             />
 
             <input
               type="email"
-              className="border border-black border-2 px-4 py-2 mt-4 w-full lg:w-full"
+              className=" border-black border-2 px-4 py-2 mt-4 w-full lg:w-full"
               placeholder="Your Email"
               required
             />
@@ -90,7 +90,7 @@ const Tags = () => {
             <textarea
               name="textArea"
               rows="4"
-              className="px-4 py-2 mt-4 border border-2 border-black w-full lg:w-full"
+              className="px-4 py-2 mt-4  border-2 border-black w-full lg:w-full"
               placeholder="Leave a message"
             ></textarea>
 
@@ -105,7 +105,7 @@ const Tags = () => {
         <div className="flex justify-center items-center lg:col-span-1">
           <div className="w-full">
             <img
-              src="/images/Batman.png"
+              src="/public/Images/Batman.png"
               alt="Batman"
               className="w-full h-auto object-cover"
             />
